@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.droi.app.maker.ui.widgets.GlideImageSwitcher
+            android:id="@+id/banner"
+            android:layout_width="match_parent"
+            android:layout_height="240dp" />
+
+        <com.droi.app.maker.ui.widgets.DotTipsView
+            android:id="@+id/banner_dots"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_gravity="bottom" />
+    </FrameLayout>
+
+    <com.droi.app.maker.ui.widgets.WrapGridView
+        android:id="@+id/app_grid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:columnWidth="80dp"
+        android:numColumns="4"
+        android:stretchMode="columnWidth" />
+
+    <RelativeLayout
+        android:id="@+id/bottom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/notify_icon"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:src="@drawable/ic_launcher_background" />
+
+        <Button
+            android:id="@+id/maker_button_task"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:text="@string/maker_by_task" />
+
+        <TextSwitcher
+            android:id="@+id/notify_text"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_alignTop="@id/maker_button_task"
+            android:layout_alignBottom="@id/maker_button_task"
+            android:layout_toStartOf="@id/maker_button_task"
+            android:layout_toEndOf="@id/notify_icon" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/maker_button_task"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/maker_button_scan"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:minWidth="100dp"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:text="@string/maker_by_scan_code"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+    </RelativeLayout>
+</LinearLayout>

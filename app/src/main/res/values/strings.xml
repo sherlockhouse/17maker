@@ -1,0 +1,25 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">17maker</string>
+
+    <string name="tab_name_home">Home</string>
+    <string name="tab_name_task">Task</string>
+    <string name="tab_name_profit">Profit</string>
+    <string name="tab_name_person">Person</string>
+
+    <string name="maker_by_task">Make Money</string>
+    <string name="maker_by_scan_code">Scan code to make money</string>
+
+    <string name="appinfo_edit_my_apps">My Apps</string>
+    <string name="appinfo_edit_recent_apps">Recently Apps</string>
+    <string name="appinfo_edit_all_apps">All Apps</string>
+    <string name="appinfo_edit_more_apps">More Apps</string>
+
+    <string name="text_edit">Edit</string>
+    <string name="text_complete">Complete</string>
+    <string name="text_cancel">Cancel</string>
+    <string name="text_save">Save</string>
+    <string name="text_confirm">Confirm</string>
+    <string name="text_tips">Tips</string>
+
+    <string name="tips_msg_save_for_edit">Do you want to save your changes?</string>
+</resources>

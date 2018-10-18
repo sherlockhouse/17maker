@@ -1,0 +1,25 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">17赚</string>
+
+    <string name="tab_name_home">首页</string>
+    <string name="tab_name_task">任务</string>
+    <string name="tab_name_profit">收益</string>
+    <string name="tab_name_person">个人</string>
+
+    <string name="maker_by_task">我要赚钱</string>
+    <string name="maker_by_scan_code">扫码赚钱</string>
+
+    <string name="appinfo_edit_my_apps">我的应用</string>
+    <string name="appinfo_edit_recent_apps">最近应用</string>
+    <string name="appinfo_edit_all_apps">全部应用</string>
+    <string name="appinfo_edit_more_apps">更多应用</string>
+
+    <string name="text_edit">编辑</string>
+    <string name="text_complete">完成</string>
+    <string name="text_cancel">取消</string>
+    <string name="text_save">保存</string>
+    <string name="text_confirm">确认</string>
+    <string name="text_tips">提示</string>
+
+    <string name="tips_msg_save_for_edit">是否保存修改？</string>
+</resources>

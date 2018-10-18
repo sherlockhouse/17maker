@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="DotTips">
+        <attr name="size" format="dimension"/>
+        <attr name="interval" format="dimension"/>
+        <attr name="checkColor" format="color"/>
+        <attr name="uncheckColor" format="color"/>
+        <attr name="uncheckStrokeColor" format="color"/>
+        <attr name="uncheckStrokeWidth" format="dimension"/>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginStart="20dp"
+                android:gravity="center_vertical"
+                android:text="@string/appinfo_edit_my_apps"
+                android:textSize="16sp" />
+
+            <com.droi.app.maker.ui.widgets.WrapGridView
+                android:id="@+id/my_app_grid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:columnWidth="80dp"
+                android:numColumns="4"
+                android:stretchMode="columnWidth" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@android:color/white"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginStart="20dp"
+                android:gravity="center_vertical"
+                android:text="@string/appinfo_edit_recent_apps"
+                android:textSize="16sp" />
+
+            <com.droi.app.maker.ui.widgets.WrapGridView
+                android:id="@+id/recent_app_grid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:columnWidth="80dp"
+                android:numColumns="4"
+                android:stretchMode="columnWidth" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@android:color/white"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginStart="20dp"
+                android:gravity="center_vertical"
+                android:text="@string/appinfo_edit_all_apps"
+                android:textSize="16sp" />
+
+            <com.droi.app.maker.ui.widgets.WrapGridView
+                android:id="@+id/all_app_grid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:columnWidth="80dp"
+                android:numColumns="4"
+                android:stretchMode="columnWidth" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

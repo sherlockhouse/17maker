@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="appinfo_count_in_home_panel_def_value">7</integer>
+    <!--  -->
+    <integer name="appinfo_count_in_recent_panel_def_value">8</integer>
+</resources>

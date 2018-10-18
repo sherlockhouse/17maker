@@ -1,0 +1,19 @@
+syntax = "proto2";
+
+package com.droi.app.maker.common.utils.proto;
+option java_package = "com.droi.app.maker.common.utils.proto";
+option java_multiple_files = true;
+option optimize_for = LITE_RUNTIME;
+
+message UiAction {
+    enum Type {
+        UNKNOWN = 0;
+
+        CHANGE_TAB_TO_HOME = 1;
+        CHANGE_TAB_TO_TASK = 2;
+        CHANGE_TAB_TO_PROFIT = 3;
+        CHANGE_TAB_TO_PERSON = 4;
+
+        SCROLL = 5;
+    }
+}

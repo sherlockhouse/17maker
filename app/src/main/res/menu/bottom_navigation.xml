@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:title="@string/tab_name_home" />
+    <item
+        android:id="@+id/navigation_task"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:title="@string/tab_name_task" />
+    <item
+        android:id="@+id/navigation_profit"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:title="@string/tab_name_profit" />
+    <item
+        android:id="@+id/navigation_person"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:title="@string/tab_name_person" />
+</menu>
